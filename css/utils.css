@@ -1,0 +1,49 @@
+/* 
+
+FILE FOR UTILITY CSS
+CONTAINS ALL REUSABLE STYLE CODES 
+
+*/
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap'
+);
+
+:root{
+    --color-light-blue:  rgba(54, 191, 250, 1);
+    --color-blue: #383e90;
+}
+
+::selection{
+    background: var(--color-light-blue);
+    -webkit-text-fill-color:white;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', 'Arial', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.container{
+    width: 100vw;
+}
+
+input:focus{
+    outline: none;
+    padding: 5px;
+}
+
+li{
+    list-style-type: none;
+}

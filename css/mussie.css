@@ -1,0 +1,157 @@
+/* THIS FILE COMES FROM MUSSIE */
+
+:root {
+    --black: 
+  rgba(0, 0, 0, 1);
+    --primary-b: 
+  rgba(34, 34, 34, 1);
+    --scooter: 
+  rgba(54, 191, 250, 1);
+    --color-b-1: 
+  rgba(68, 68, 68, 1);
+    --granite-gray: 
+  rgba(102, 102, 102, 0.078);
+    --paragraph: 
+  rgba(102, 102, 102, 1);
+    --mountain-mist: 
+  rgba(153, 153, 153, 0.502);
+    --color-off: 
+  rgba(153, 153, 153, 1);
+    --color-off-1: 
+  rgba(229, 229, 229, 1);
+    --white-lilac: 
+  rgba(247, 248, 252, 1);
+    --primary-o: 
+  rgba(250, 116, 54, 1);
+    --baby-powder: 
+  rgba(254, 252, 251, 1);
+    --white: 
+  rgba(255, 255, 255, 1);
+  
+    --font-size-xs: 12px;
+    --font-size-s: 14px;
+    --font-size-m: 16px;
+    --font-size-l: 18px;
+    --font-size-xl: 24px;
+    --font-size-xxl: 48px;
+    --font-size-xxxl: 64px;
+    --font-size-20px: 20px;
+  
+    --font-family-inter: "Inter";
+    --font-family-open_sans: "Open Sans";
+    --font-family-poppins: "Poppins";
+    --font-family-roboto: "Roboto";
+    --font-family-volkhov: "Volkhov";
+  }
+  
+  
+  
+  .section-title {
+    font-family: var(--font-family-volkhov);
+    font-size: var(--font-size-xxl);
+    letter-spacing: 0px;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .border-1px-mountain-mist {
+    border-width: 1px;
+    border-style: solid;
+    border-color: var(--mountain-mist);
+  }
+  .title-24px {
+    font-family: var(--font-family-poppins);
+    font-size: var(--font-size-xl);
+    letter-spacing: 0px;
+    font-weight: 500;
+    font-style: normal;
+  }
+  .border-2px-granite-gray {
+    border-width: 2px;
+    border-style: solid;
+    border-color: var(--granite-gray);
+  }
+  .poppins-normal-granite-gray-12px {
+    color: var(--paragraph);
+    font-family: var(--font-family-poppins);
+    font-size: var(--font-size-xs);
+    font-weight: 400;
+    font-style: normal;
+  }
+  .header {
+    font-family: var(--font-family-volkhov);
+    font-size: var(--font-size-xxxl);
+    letter-spacing: 0px;
+    font-weight: 700;
+    font-style: normal;
+  }
+  .content-16x {
+    font-family: var(--font-family-poppins);
+    font-size: var(--font-size-m);
+    letter-spacing: 0px;
+    font-weight: 500;
+    font-style: normal;
+  }
+  .paragraph-18px {
+    font-family: var(--font-family-poppins);
+    font-size: var(--font-size-l);
+    letter-spacing: 0px;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .poppins-medium-log-cabin-18px {
+    color: var(--primary-b);
+    font-family: var(--font-family-poppins);
+    font-size: var(--font-size-l);
+    font-weight: 500;
+    font-style: normal;
+  }
+  .paragraph-20px {
+    font-family: var(--font-family-poppins);
+    font-size: var(--font-size-20px);
+    letter-spacing: 0px;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .poppins-semi-bold-log-cabin-18px {
+    color: var(--primary-b);
+    font-family: var(--font-family-poppins);
+    font-size: var(--font-size-l);
+    font-weight: 600;
+    font-style: normal;
+  }
+  .poppins-semi-bold-log-cabin-24px {
+    color: var(--primary-b);
+    font-family: var(--font-family-poppins);
+    font-size: var(--font-size-xl);
+    font-weight: 600;
+    font-style: normal;
+  }
+  .volkhov-bold-log-cabin-24px {
+    color: var(--primary-b);
+    font-family: var(--font-family-volkhov);
+    font-size: var(--font-size-xl);
+    font-weight: 700;
+    font-style: normal;
+  }
+  .inter-normal-mountain-mist-16px {
+    color: var(--color-off);
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-m);
+    font-weight: 400;
+    font-style: normal;
+  }
+  .title {
+    font-family: var(--font-family-poppins);
+    font-size: var(--font-size-m);
+    letter-spacing: 0px;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .poppins-medium-granite-gray-14px {
+    color: var(--paragraph);
+    font-family: var(--font-family-poppins);
+    font-size: var(--font-size-s);
+    font-weight: 500;
+    font-style: normal;
+  }
