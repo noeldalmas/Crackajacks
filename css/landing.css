@@ -1,5 +1,5 @@
 @import url('../css/utils.css');
-
+@import url('../css/water_hover.css');
 /* 
 TODOs
 
@@ -196,7 +196,7 @@ body{
 
 .landing-screen-action a{
     border: 2px solid var(--color-light-blue);
-    padding: .5rem;
+
     border-radius: 5px;
     width: 8rem;
     height: 3rem;
@@ -204,12 +204,10 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    transition: background-color 300ms;
 
 }
 
 .landing-screen-action a:hover{
-    background-color: var(--color-light-blue);
     color: white;
 }
 

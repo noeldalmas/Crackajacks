@@ -1,0 +1,46 @@
+/* CRAYONCODE FEB 2021 DEV.COM */
+
+/* 
+TODO:
+REMOVING EXTRA PADDING FROM BUTTON 
+
+*/
+.landing-screen-action a{
+    position: relative;
+}
+
+.landing-screen-action a::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: var(--color-light-blue);
+    z-index: -1;
+    transition: clip-path 800ms ease-in-out;
+}
+
+.landing-screen-action a::before{
+    clip-path: ellipse(
+        100% 50%
+        at
+        150% 200%
+    );
+}
+
+.landing-screen-action a:hover::before{
+    clip-path: ellipse(
+        100% 250%
+        at
+        50% 200%
+    );
+}
+
+.landing-screen-action a:active::before{
+    clip-path: ellipse(
+        100% 250%
+        at
+        50% 200%
+    );
+}
