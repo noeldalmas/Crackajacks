@@ -287,7 +287,6 @@ body{
     margin-top: 3%;
     width: 100%;
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
 }
 
@@ -305,6 +304,7 @@ body{
     overflow: hidden;
 }
 
+
 .galery-box:hover{
     box-shadow: 0px 5px 10px var(--color-light-blue);
 
@@ -312,6 +312,8 @@ body{
 
 .galery-box div{
     height: 30%;
+    text-align: center;
+    margin-top: 1rem;
 }
 
 .galery-box span{
@@ -321,7 +323,7 @@ body{
 
 .galery img{
     width: 100%;
-    height: 152px;
+    height: 70%;
 }
 
 /* GALERY BUTTONS **************/
@@ -331,6 +333,7 @@ body{
     display: flex;
     justify-content: center;
 }
+
 
 .buttons a,
 .slide-controls a,
@@ -393,10 +396,11 @@ body{
 .slide-controls{
     margin-top: 3rem;
     text-align: right;
-    width: 70%;
+    width: 50%;
     height: 40px;
     display: flex;
     justify-content: right;
+    margin: auto;
 }
 
 /* SECTION FOUR ======================= */
@@ -527,6 +531,8 @@ body{
 
 .section-five-images{
     display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
     margin-top: 1rem;
 }
