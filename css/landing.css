@@ -453,14 +453,13 @@ body{
 }
 
 .section-four-cards{
-    height: 70%;
+    height: 100%;
     width: 60%;
     position: relative;
 }
 
-.section-four-card, 
-.section-four-card-behind{
-    height: 11rem;
+.section-four-card{
+    height: 15rem;
     width: 21.5rem;
     background-color: white;
     border: 1px solid rgba(128, 128, 128, 0.12);
