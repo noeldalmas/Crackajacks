@@ -112,6 +112,12 @@ body{
     color: var(--color-light-blue);
 }
 
+.landing-message>div>p{
+    font-size: 1.2rem;
+    margin-top: 3rem;
+    width: 80%;
+}
+
 /*LANDING IMAGE ***************/
 .landing-image{
     height: 100%;
@@ -237,12 +243,12 @@ body{
     height: 75%;
     display: flex;
     flex-direction: row;
-    width: 50%;
+    width: 70%;
 }
 
 .card{
     background-color: white;
-    height: 10rem;
+    height: 11rem;
     width: 28%;
     margin: auto 1rem;
     display: flex;
@@ -258,12 +264,28 @@ body{
 
 .card i{
     margin-top: 1rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     font-size: 1.8rem;
 }
 
+.fa-instagram{
+    color: #fb3958;
+}
+
+.fa-facebook{
+    color: #4267B2;
+}
+
+.fa-users{
+    color: var(--color-blue);
+}
+
+.fa-youtube{
+    color: #FF0000;
+}
+
 .card span{
-    margin-top: .5rem;
+    margin-top: 1rem;
 }
 
 /* SECTION TWO ======================= */
@@ -278,7 +300,7 @@ body{
 }
 
 .section-two>span{
-    width: 25%;
+    width: 35%;
     margin: .5rem auto;
     text-align: center;
 }
@@ -372,6 +394,35 @@ body{
     border: .5px solid var(--color-light-blue) ;
 }
 
+.quotation-mark{
+    animation: dancing 1s linear infinite;
+    display: inline-block;
+    transform: rotate(13deg);  
+    font-size: 2rem;  
+}
+
+@keyframes dancing{
+      0% {
+        transform: rotate(13deg) scale(2);
+      }
+    
+      25% {
+        transform: rotate(0deg);
+      }
+    
+      50% {
+        transform: rotate(-13deg) scale(2);
+      }
+    
+      75% {
+        transform: rotate(0deg);
+      }
+    
+      100% {
+        transform: rotate(13deg) scale(2);
+      }
+}
+
 /* SECTION THREE ======================= */
 
 .section-three{
@@ -381,6 +432,11 @@ body{
 .section-three-title{
     text-align: center;
     margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+
+.section-three-title h1{
+    margin-bottom: 1rem;
 }
 
 .section-three-title span.blue-span{
@@ -665,9 +721,27 @@ div.thanks{
     box-shadow: 2px 2px 5px rgba(128, 128, 128, 0.886);
 }
 
-.footer-part-one i:hover{
-    background-color: var(--color-light-blue);
+.footer-part-one .fa-facebook:hover{
+    background-color: #4267B2;
     color: white;
+}
+
+.fa-twitter:hover{
+    background-color: #00acee;
+    color: white;
+}
+
+.fa-github:hover{
+    background-color: #171515;
+    color: white;
+}
+
+.fa-github{
+    color: #171515;
+}
+
+.fa-twitter{
+    color: #00acee;
 }
 
 .footer-up h3{
@@ -679,7 +753,7 @@ div.thanks{
 .footer-part-three a{
     margin-bottom: .5rem;
     color: var(--color-light-blue);
-    padding: .2rem;
+    padding: .2rem .5rem;
     border-radius: 5px;
     width: 50%;
 }
