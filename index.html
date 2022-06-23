@@ -52,20 +52,19 @@
             
         }
 
-
     </style>
 </head>
 <body>
     <div class="container">
         <div class="header">
             <div class="logo">
-                <a href="index.html"><img src="./assets/images/logo.png" alt=""></a>
+                <a href="/"><img src="./assets/images/logo.png" alt=""></a>
             </div>
             <div class="navigation">
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Stories</a></li>
-                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="./html/stories.html">Stories</a></li>
+                    <li><a href="./html/contact/">Contact Us</a></li>
                 </ul>
 
             </div>
@@ -139,25 +138,25 @@
                     
                 </div>
                 <div class="one-content">
-                    <div class="card">
+                    <div class="card card-one">
                         <i class="fa fa-instagram" aria-hidden="true"></i>
                         <h4>Instagram</h4>
                         <span>Stories ans Ads </span>
                     </div>
 
-                    <div class="card">
+                    <div class="card card-two">
                         <i class="fa fa-facebook" aria-hidden="true"></i>
                         <h4>Facebook</h4>
                         <span>Ads</span>
                     </div>
 
-                    <div class="card">
+                    <div class="card card-three">
                         <i class="fa fa-users" aria-hidden="true"></i>
                         <h4>High School</h4>
                         <span>ALU Student outreach programs</span>
                     </div>
 
-                    <div class="card">
+                    <div class="card card-four">
                         <i class="fa fa-youtube" aria-hidden="true"></i>
                         <h4>YouTube</h4>
                         <span>Ads</span>
@@ -472,62 +471,62 @@
         $(document).on('ready', function() {
         
         
-        $(".regular").slick({
-            dots: true,
-            infinite: true,
-            slidesToShow: 3,
-            slidesToScroll: 1,
-            prevArrow:$(".place-left-btn"),
-            nextArrow:$(".place-right-btn"),
-            // variableWidth:true
+            $(".regular").slick({
+                dots: true,
+                infinite: true,
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                prevArrow:$(".place-left-btn"),
+                nextArrow:$(".place-right-btn"),
+                // variableWidth:true
 
-        });
+            });
 
-        $(".event").slick({
-            dots: true,
-            infinite: true,
-            slidesToShow: 4,
-            slidesToScroll: 1,
-            prevArrow:$(".event-left-btn"),
-            nextArrow:$(".event-right-btn"),
-            speed:500,
-            // variableWidth:true
+            $(".event").slick({
+                dots: true,
+                infinite: true,
+                slidesToShow: 4,
+                slidesToScroll: 1,
+                prevArrow:$(".event-left-btn"),
+                nextArrow:$(".event-right-btn"),
+                speed:500,
+                // variableWidth:true
 
-        });
+            });
 
-        $(".stories").slick({
-            dots: true,
-            infinite: true,
-            slidesToShow: 4,
-            slidesToScroll: 1,
-            autoplay:true,
-            autoplaySpeed:2000
-        });
+            $(".stories").slick({
+                dots: true,
+                infinite: true,
+                slidesToShow: 4,
+                slidesToScroll: 1,
+                autoplay:true,
+                autoplaySpeed:2000
+            });
 
 
-        
-        });
+            
+            });
 
-        var swiper = new Swiper('.swiper-container', {
-            effect: 'coverflow',
-            grabCursor: true,
-            centeredSlides: true,
-            slidesPerView: 'auto',
-            coverflowEffect: {
-                rotate: 40,
-                stretch: 0,
-                depth: 1800,
-                modifier: 2,
-                slideShadows : false,
-            },
-            pagination: {
-            el: '.swiper-pagination',
-            },
+            var swiper = new Swiper('.swiper-container', {
+                effect: 'coverflow',
+                grabCursor: true,
+                centeredSlides: true,
+                slidesPerView: 'auto',
+                coverflowEffect: {
+                    rotate: 40,
+                    stretch: 0,
+                    depth: 1800,
+                    modifier: 2,
+                    slideShadows : false,
+                },
+                pagination: {
+                el: '.swiper-pagination',
+                },
 
-            navigation: {
-                nextEl: ".swiper-next",
-                prevEl: ".swiper-prev",
-            },
+                navigation: {
+                    nextEl: ".swiper-next",
+                    prevEl: ".swiper-prev",
+                },
         });
   </script>
 

@@ -128,7 +128,21 @@ body{
     position: relative;
     padding-top: 13%;
     padding-bottom: 1rem;
+   
 }
+
+/* .landing-image{
+    height: 100%;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    position: relative;
+    padding-top: 13%;
+    padding-bottom: 1rem;
+    background: url('../assets/images/landing-right-background.png') no-repeat;
+    background-size: contain;
+} */
 
 .half-circle{
     height: 12.5rem;
@@ -260,6 +274,19 @@ body{
 
 .card:hover{
     box-shadow: 1px 1px 5px rgba(99, 98, 98, 0.5);
+}
+
+.card-one,
+.card-three{
+    background: white url('../assets/images/one-three.png') center;
+    background-size: contain;
+    
+}
+
+.card-two,
+.card-four{
+    background: white url('../assets/images/two-four.png') center;
+    background-size: contain;
 }
 
 .card i{
@@ -430,9 +457,10 @@ body{
 }
 
 .section-three-title{
+    width: 50rem;
     text-align: center;
-    margin-top: 2rem;
-    margin-bottom: 3rem;
+    margin:2rem auto 3rem auto ;
+    background: url('../assets/images/section-three-background.png') no-repeat top right;
 }
 
 .section-three-title h1{
@@ -462,11 +490,12 @@ body{
 /* SECTION FOUR ======================= */
 
 .section-four{
-    background-color: rgba(80, 188, 238, 0.073);
     height: 30rem;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    background: rgba(80, 188, 238, 0.073) url('../assets/images/section-four-background.png') no-repeat top right;    
+
 }
 
 .section-four-left{
@@ -663,6 +692,8 @@ div.thanks{
     border-radius: 15px;
     margin-top: 3rem;
     width: 75%;
+    background-image: url('../assets/images/thanks_background.png');
+    background-size: cover;
 }
 
 
@@ -721,7 +752,12 @@ div.thanks{
     box-shadow: 2px 2px 5px rgba(128, 128, 128, 0.886);
 }
 
-.footer-part-one .fa-facebook:hover{
+.fa-linkedin:hover{
+    background-color: #0e76a8;
+    color: white;
+}
+
+.fa-facebook:hover{
     background-color: #4267B2;
     color: white;
 }
@@ -736,6 +772,14 @@ div.thanks{
     color: white;
 }
 
+.fa-instagram:hover{
+    background-color: #cd486b;
+    color: white;
+}
+
+.fa-linkedin{
+    color: #0e76a8;    
+}
 .fa-github{
     color: #171515;
 }

@@ -1,0 +1,93 @@
+.slider {
+    width: 20rem;
+}
+
+.slick-slide {
+  margin: 0px 5px;
+  transition: all ease-in-out .3s;
+}
+
+.slick-slide .card{
+    width: 22rem;
+    height: 28rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}    
+
+.card .card-image{
+    height: 45%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card .card-image img{
+    width: 8rem;
+    height: 8rem;
+    border-radius: 100%;
+}
+
+.card .card-info{
+    height: 35%;
+    width: 100%;
+}
+
+.card .card-info h3{
+    margin-top: .5rem;
+}
+
+.social-media-buttons{
+    margin-top: 1rem;
+} 
+
+.social-media-buttons a{
+    display: inline-block;
+}
+
+.social-media-buttons i{
+    font-size: 1.2rem;
+    background-color: rgb(255, 255, 255);
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: .5rem;
+    border-radius: 100%;
+    box-shadow: 0px 3px 8px rgba(95, 93, 93, 0.499), inset 0px 2px 3px #fff
+
+}
+
+.card>a{
+    background-color: #2a2a72;
+    background-image: linear-gradient(45deg,#2a2a72, #009ffd 100%);
+    color:white;
+    padding: .5rem 1.5rem;
+    border-radius: 30px;
+    transition: background-image 500ms;
+}
+
+.card>a:hover{
+    background-image: linear-gradient(315deg,#2a2a72, #009ffd 100%);
+}
+
+
+.slick-prev:before,
+.slick-next:before {
+  display: none;
+}
+
+.slick-dots li.slick-active button::before{
+    color: #2a2a72;   
+    -webkit-text-stroke: 1px #2a2a72;
+
+}
+
+.slick-dots li button::before{
+    font-size: .8rem;
+    top: .5rem;
+    color: white;
+    -webkit-text-stroke: 1px black;
+}
