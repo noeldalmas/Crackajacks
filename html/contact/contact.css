@@ -1,6 +1,6 @@
-@import url('../css/utils.css');
-@import url('../css/landing.css');
-@import url('../css/profile-card.css');
+@import url('/css/utils.css');
+@import url('/css/landing.css');
+@import url('/css/profile-card.css');
 
 :root{
     --color-light-blue:rgb(6, 148, 230);
@@ -19,7 +19,6 @@
     
 }
 
-
 .footer-up, .footer-down{
     width: 75%;
     margin: auto;
@@ -36,6 +35,7 @@
 
 .contact-section{
     height: 50rem;
+    position: relative;
 }
 
 .contact-message{
@@ -46,7 +46,7 @@
     margin-bottom: 0;
 }
 
-.contact-message h1{
+.contact-message>h1{
     text-align: center;
     font-size: 4rem;
     width: 18rem;
@@ -64,11 +64,11 @@
 
 .cards{
     position: absolute;
-    width: 20%;
+    width: 18rem;
     height: 25rem;
     padding: none;
-    bottom: 0;
-    left: 25%;
+    top:11rem;
+    left: 15%;
     opacity: 1;
     border-radius: 5px;
     z-index: 1;
@@ -86,11 +86,11 @@
 
 .contact-form{
     position: absolute;
-    width: 30%;
+    width: 25rem;
     height: 25rem;
     background-color: white;
-    bottom: 4rem;
-    right: 20%;
+    top:9rem;
+    right: 15%;
     z-index: 1;
     border: 1px solid #0694e61d ;
     border-radius: 15px;
@@ -175,4 +175,64 @@ input[type=submit]{
 }
 input[type=submit]:hover{
     background-color: var(--color-blue);
+}
+
+@media only screen and (max-width:1030px){
+
+    .contact-form{
+        right: 10%;
+    }
+
+    .cards{
+        left: 10%;
+    }
+}
+
+@media only screen and (max-width:875px){
+
+    .contact-form{
+        right: 5%;
+    }
+
+    .cards{
+        left: 5%;
+    }
+}
+
+@media only screen and (max-width:875px){
+
+    .contact-form, .cards{
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+
+    .cards{
+        top:40rem;
+    }
+
+    .contact-section{
+        height: 80rem;
+    }
+
+    .contact-message{
+    
+        height: 25%;
+    }
+
+}
+
+@media only screen and (max-width:875px){
+
+    .contact-form{
+        width: 20rem;
+    }
+
+    .contact-form h2{
+        font-size: 1.2rem;
+    }
+
+    .contact-message>h1{
+        font-size: 3rem;
+    }    
 }

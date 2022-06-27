@@ -22,6 +22,7 @@ Eg. div.something{
 
 */
 
+
 :root{
     --color-light-blue:rgb(6, 148, 230);
     --color-light-blue-hover:rgba(6, 148, 230, 0.294);
@@ -740,7 +741,7 @@ div.thanks{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: .5rem;
+    margin: .5rem .75rem .5rem 0rem;
     border-radius: 100%;
     box-shadow: 2px 2px 5px rgba(128, 128, 128, 0.886);
 }
@@ -829,7 +830,6 @@ div.thanks{
 
 .footer-down{
     height: 5rem;
-    display: flex;
-    align-items: center;
 
 }
+
