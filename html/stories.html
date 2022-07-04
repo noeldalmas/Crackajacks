@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="color-scheme" content="dark light">
-    
+
     <title>Stories Page</title>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -19,17 +20,16 @@
     <link rel="stylesheet" type="text/css" href="../slick-masters/slick/slick-theme.css">
 
     <style>
-
-        .slider{
+        .slider {
             margin: 2.5rem auto;
             width: 60%;
         }
 
-        .section-five .slider{
+        .section-five .slider {
             width: 100%;
         }
 
-        .section-five .slick-list{
+        .section-five .slick-list {
             margin: auto;
         }
 
@@ -38,9 +38,9 @@
             border-radius: 10px;
             position: relative;
             transition: all ease-in-out .3s;
-        }     
+        }
 
-        .slick-dots li.slick-active button::before{
+        .slick-dots li.slick-active button::before {
             color: rgba(54, 191, 250, 1);
         }
 
@@ -50,126 +50,239 @@
             padding-top: 150px;
             padding-bottom: 50px;
             padding-left: 2rem;
-            
+
         }
-
-
     </style>
 </head>
+
 <body>
-  <div class="container"> 
-    <div class="header">
-        <div class="logo">
-            <a href="index.html"><img src="../assets/images/logo.png" alt=""></a>
+    <div class="container">
+        <div class="header">
+            <div class="logo">
+                <a href="index.html"><img src="../assets/images/logo.png" alt=""></a>
+            </div>
+            <div class="navigation">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Stories</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
         </div>
-        <div class="navigation">
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Stories</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact Us</a></li>
-            </ul>
-        </div>
-    </div> 
+
+        <div class="content-container">
+            <!--Stories page landing screen***********-->
+            <div class="stories-landing-screen">
+
+                <div class="profile-section">
+
+                    <div class="profile">
+                        <div class="student-profile">
+                            <div class="image-part">
+                                <div class="profile-image">
+                                    <img src="../images/duck.JPG" alt="Student profile picture">
+                                </div>
+                            </div>
+                        </div>
     
-    <div class="section-one">
-    
+                        <div class="student-profile">
+                            <span>
+                                <h3>Name:</h3>
+                                <p>Pacifique Rubasha</p>
+                            </span>
+                            <span>
+                                <h3>Age:</h3>
+                                <p>20</p>
+                            </span>
+                            <span>
+                                <h3>Major:</h3>
+                                <p>BSc(Hons) Computing</p>
+                            </span>
+                            <span>
+                                <h3>Country:</h3>
+                                <p>Democratic Republic of Congo</p>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="Mission-background">
+                        <div class="container-one">
+                            <h3>Mission</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, exercitationem.
+                                Facilis, rem
+                                facere quasi ex sunt non pariatur alias aliquam.</p>
+                        </div>
+
+                        <div class="container-one">
+                            <h3>Background</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, exercitationem.
+                                Facilis, rem
+                                facere quasi ex sunt non pariatur alias aliquam.</p>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="section-one-screen">
+
+                <div class="second-part">
+
+                    <div class="event-slider">
+                        <div class="box-1">
+                            <h3>How did you hear about ALU?</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, exercitationem.
+                                Facilis, rem
+                                facere quasi ex sunt non pariatur alias aliquam.</p>
+                        </div>
+
+                        <div class="box-2">
+                            <h3>Why ALU?</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, exercitationem.
+                                Facilis, rem
+                                facere quasi ex sunt non pariatur alias aliquam.</p>
+                        </div>
+
+                        <div class="box-3">
+                            <h3>Application process</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, exercitationem.
+                                Facilis, rem
+                                facere quasi ex sunt non pariatur alias aliquam.</p>
+                        </div>
+
+                        <div class="box-4">
+                            <h3>Accomplishments</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, exercitationem.
+                                Facilis, rem
+                                facere quasi ex sunt non pariatur alias aliquam.</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="section-one-slide-controls">
+                <a class="left-button swiper-prev " href="#">←</a>
+                <a class="right-button swiper-next " href="#">→</a>
+            </div>
+
+            <div class="section-two-screen">
+
+                <div class="main-advice-container">
+                    <!-- Advice to prospective students page -->
+                    <div class="section-two-title">
+                        <h3> Advice to prospective students</h3>
+                    </div>
+
+                    <!---First row. Has advice from three students-->
+                    <div class="partone-container">
+                        <!---Advice from student one ----->
+
+                        <div class="students-row1">
+                            <div class="student-image">
+                                <img src="../images/duck.JPG" alt="">
+                            </div>
+                            <h3>Adja Gueye</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, exercitationem.
+                                Facilis,
+                                rem
+                                facere quasi ex sunt non pariatur alias aliquam.
+                            </p>
+                        </div>
+
+                        <!-----Advice from student two----->
+
+                        <div class="students-row1">
+                            <div class="student-image">
+                                <img src="../images/duck.JPG" alt="">
+                            </div>
+                            <h3>Noel Oduory</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, exercitationem.
+                                Facilis,
+                                rem
+                                facere quasi ex sunt non pariatur alias aliquam.
+                            </p>
+                        </div>
+
+                        <!----Advice from student three----->
+
+                        <div class="students-row1">
+                            <div class="student-image">
+                                <img src="../images/duck.JPG" alt="">
+                            </div>
+                            <h3>Mussie Teferi</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, exercitationem.
+                                Facilis,
+                                rem
+                                facere quasi ex sunt non pariatur alias aliquam.
+                            </p>
+                        </div>
+                        <!---- End of First row with advice from three students---->
+                    </div>
+                    <!-----Second row. Has advice from three students too.----->
+                    <div class="parttwo-container">
+
+                        <!----Advice from student four----->
+
+                        <div class="students-row2">
+                            <div class="student-image">
+                                <img src="../images/duck.JPG" alt="">
+                            </div>
+                            <h3>Pacifique Rubasha</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, exercitationem.
+                                Facilis,
+                                rem
+                                facere quasi ex sunt non pariatur alias aliquam.
+                            </p>
+                        </div>
+                        <!----Advice from student five----->
+
+                        <div class="students-row2">
+                            <div class="student-image">
+                                <img src="../images/duck.JPG" alt="">
+                            </div>
+                            <h3>Emmanuel Okorwoit</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, exercitationem.
+                                Facilis,
+                                rem
+                                facere quasi ex sunt non pariatur alias aliquam.
+                            </p>
+                        </div>
+
+                        <!----Advice from student six----->
+                        <div class="students-row2">
+                            <div class="student-image">
+                                <img src="../images/duck.JPG" alt="">
+                            </div>
+                            <h3>Harry Goliyo</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, exercitationem.
+                                Facilis,
+                                rem
+                                facere quasi ex sunt non pariatur alias aliquam.
+                            </p>
+                        </div>
+                        <!--End of second row with advice from three students-->
+
+                    </div>
+                </div>
+                <!-----End of Advice section container ------->
+
+            </div>
+            <!-- Thank you block -->
+            <div class="thanks">
+                <h1>Thank you for visiting us</h1>
+            </div>
 
 
-    </div>
-
-    <div class="section-two">
-         <!-- Advice to prospective students page -->
-         <div class="section-two-title">
-            <h3> Advice to prospective students</h3>
-         </div>
-    <div class="main-advice-container">
-
-       <!---First row. Has advice from three students-->
-        <div class="partone-container">
-
-           <!---Advice from student one ----->
-
-           <div class="row1">
-               <img src="../images/duck.JPG" alt="">
-               <h3>Adja Gueye</h3>
-               <p>
-                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, exercitationem. Facilis, rem facere quasi ex sunt non pariatur alias aliquam.
-               </p>
-           </div>
-           
-           <!-----Advice from student two----->
-
-           <div class="row1">
-               <img src="../images/duck.JPG" alt="">
-               <h3>Pacifique Rubasha</h3>
-               <p>
-                   Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo tempora mollitia autem culpa, atque quod nostrum? Est laborum modi blanditiis.
-               </p>
-           </div>
-
-           <!----Advice from student three----->
-
-           <div class="row1">
-               <img src="../images/duck.JPG" alt="">
-               <h3>Mussie Teferi</h3>
-               <p>
-                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat esse incidunt vel id iste corrupti voluptas optio. Harum, pariatur voluptate!
-               </p>
-           </div>
-        </div>
-        <!---- End of First row with advice from three students---->
-
-        <!-----Second row. Has advice from three students too.----->
-        <div class="parttwo-container">
-
-           <!----Advice from student four----->
-
-           <div class="row2">
-               <img src="../images/duck.JPG" alt="">
-               <h3>Noel Oduory</h3>
-               <p>
-                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut veritatis beatae minima delectus mollitia quis corporis rem iste natus! Iure.
-       
-               </p>
-           </div>
-
-           <!----Advice from student five----->
-
-           <div class="row2">
-               <img src="../images/duck.JPG" alt="">
-               <h3>Emmanuel Okorwoit</h3>
-               <p>
-                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur ab tempora cupiditate repudiandae, sint facilis eveniet suscipit laudantium repellendus! Quod!
-               </p>
-           </div>
-
-           <!----Advice from student six----->
-           <div class="row2">
-               <img src="../images/duck.JPG" alt="">
-               <h3>Harry Goliyo</h3>
-               <p>
-                   Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore illo nulla tempora odio quam reprehenderit, illum ratione provident molestiae magni.
-               </p>
-           </div>
-           <!--End of second row with advice from three students-->
-
-        </div>
-    </div>
-        
-    <!-----End of Advice section container ------->
-
-    </div>
-     
-        
-        <!-- Thank you block -->
-      <div class="thanks">
-            <h1>Thank you for visiting us</h1>
-        </div>
-            
-    
-        <!-- The footer -->
-        <div class="footer">
+            <!-- The footer -->
+            <div class="footer">
                 <div class="footer-up">
                     <div class="footer-part-one">
                         <img src="../assets/images/logo.png" alt="">
@@ -182,13 +295,13 @@
                         </div>
 
                     </div>
-    
+
                     <div class="footer-part-two">
                         <h3>Links</h3>
                         <a href="#">Home</a>
                         <a href="#">About</a>
                     </div>
-    
+
                     <div class="footer-part-three">
                         <h3>Stories</h3>
                         <a href="#">Adja</a>
@@ -196,12 +309,12 @@
                         <a href="#">Noel</a>
                         <a href="#">Emmanuel</a>
                         <a href="#">Pacifique</a>
-    
+
                     </div>
-    
+
                     <div class="footer-part-four">
                         <h3>Contact Us</h3>
-    
+
                     </div>
 
                 </div>
@@ -209,13 +322,12 @@
                 <div class="footer-down">
                     &copy;Copyright IP1Group9 2022
                 </div>
-                
+
             </div>
-            
         </div>
 
-
     </div>
-</div> 
+
 </body>
+
 </html>
