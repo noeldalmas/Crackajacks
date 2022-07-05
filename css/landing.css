@@ -26,6 +26,7 @@ Eg. div.something{
 :root{
     --color-light-blue:rgb(6, 148, 230);
     --color-light-blue-hover:rgba(6, 148, 230, 0.294);
+    --color-lighter-blue: rgba(80, 188, 238, 0.073);
     --color-blue: #383e90;
     --orange:  rgba(250, 116, 54, 1);
     
@@ -587,7 +588,7 @@ body{
 
 /* SECTION FIVE ======================= */
 .section-five{
-    height: 55rem;
+    height: 40rem;
     padding-top: 3rem;
     width: 100%;
     display: flex;
@@ -834,3 +835,27 @@ div.thanks{
 
 }
 
+
+/* ADDENDA */
+.footer{
+    height: 35rem;
+    background-color: var(--color-lighter-blue);
+    width: 100%;
+    padding-top: 12rem;
+    position: relative;
+    
+}
+
+.footer-up, .footer-down{
+    width: 75%;
+    margin: auto;
+}
+
+.thanks{
+    margin: 2rem auto;
+    position: absolute;
+    top:-8rem;
+    left: 0; 
+    right: 0;     
+    
+}
