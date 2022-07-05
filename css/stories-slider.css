@@ -1,0 +1,49 @@
+.slider {
+    width: 100%;
+    height: 45rem;
+}
+
+.slick-slide .story{
+    width: 100%;
+    display: flex !important ;
+    height: 45rem !important;
+}
+
+.controls{
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.controls a{
+    height: 1.5rem;
+    width: 1.5rem;
+    background-color: rgb(6, 148, 230);
+    color: white;
+    border-radius: 100%;
+    text-align: center;
+    margin: 1rem;
+}
+
+.controls .left-button{
+    background-color: white;
+    color: rgb(6, 148, 230);
+    border: 1px solid rgb(6, 148, 230) ;
+}
+
+
+@media only screen  and (max-width:864px){
+
+    .slider {
+        height: 90rem;
+    }
+    
+    .slick-slide .story{
+        flex-direction: column !important;
+        height: 90rem !important;
+        align-items: center;
+    }
+    
+}
