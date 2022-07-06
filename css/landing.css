@@ -32,7 +32,8 @@ Eg. div.something{
     
 }
 
-body{
+
+*{
     overflow-x: hidden;
 }
 
