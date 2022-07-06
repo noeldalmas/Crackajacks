@@ -32,10 +32,10 @@ Eg. div.something{
     
 }
 
-
-*{
+body, .container{
     overflow-x: hidden;
 }
+
 
 /* HEADER ======================= */
 .header{
