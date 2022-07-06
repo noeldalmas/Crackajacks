@@ -175,7 +175,8 @@
 
                     
                     <div class="contact-form">
-                        <form id="contactForm" name="contact" method="post" action="/html/thankyou/" data-netlify="true" >
+                        <form id="contactForm" name="contact" method="post" action="/html/thankyou/" data-netlify="true"
+                        netlify-honeypot="honeypot-field" >
                             <h2>Send a message to the team</h2>
                             <div>                                
                                 <input type="text" name="name" id="name" required>
@@ -190,7 +191,7 @@
                                 <textarea name="message" id="message" cols="30" rows="5" wrap="soft" required></textarea>
                                 <label for="message">Message</label>
                             </div>
-
+                            <input class="hidden" name="honeypot-field">
                             <input type="submit" value="CONTACT US">
 
 

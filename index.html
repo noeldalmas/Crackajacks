@@ -12,7 +12,8 @@
     <link rel="shortcut icon" href="./assets/images/logo.png">
 
     <link rel="stylesheet" href="./css/landing.css">
-    <link rel="stylesheet" href="/css/media_queries.css">
+    <link rel="stylesheet" href="./css/media_queries.css">
+    <link rel="stylesheet" href="./css/landing_queries.css">
 
     <link rel="stylesheet" href="./swiper-master/swiper.min.css">
     <link rel="stylesheet" type="text/css" href="./slick-masters/slick/slick.css">
@@ -22,7 +23,7 @@
 
         .slider{
             margin: 2.5rem auto;
-            width: 60%;
+            width: 80%;
         }
 
         .section-five .slider{
@@ -45,7 +46,7 @@
         }
 
         .swiper-container {
-            width: 30%;
+            width: 25rem;
             height: 100%;
             padding-top: 150px;
             padding-bottom: 50px;
@@ -229,9 +230,8 @@
 
                 <div class="section-three-title">
                     <h1>Student <span class="blue-span">experience of Mauritius</span></h1>
-                    <span>Life at the tropical island is an exhilarating experience that marinates the learning journey.<br>
-                        Discover the life that stimulates positive  mental health state to achieve excellence. 
-                        </span>
+                    <span>Life at the tropical island is an exhilarating experience that marinates the learning journey.</span><br>
+                     <span> Discover the life that stimulates positive  mental health state to achieve excellence. </span>
 
                 </div>    
 
@@ -479,7 +479,22 @@
                 slidesToScroll: 1,
                 prevArrow:$(".place-left-btn"),
                 nextArrow:$(".place-right-btn"),
-                // variableWidth:true
+                responsive: [
+                    {
+                        breakpoint:960,
+                        settings:{
+                            slidesToShow:2
+                        }
+                    },
+
+                    {
+                        breakpoint:510,
+                        settings:{
+                            slidesToShow:1
+                        }
+                    }
+                    
+                ]
 
             });
 
@@ -491,7 +506,30 @@
                 prevArrow:$(".event-left-btn"),
                 nextArrow:$(".event-right-btn"),
                 speed:500,
-                // variableWidth:true
+
+                responsive: [
+                    {
+                        breakpoint:896,
+                        settings:{
+                            slidesToShow:3
+                        }
+                    },
+
+                    {
+                        breakpoint:535,
+                        settings:{
+                            slidesToShow:2
+                        }
+                    },
+
+                    {
+                        breakpoint:450,
+                        settings:{
+                            slidesToShow:1
+                        }
+                    }
+                    
+                ]
 
             });
 
@@ -501,7 +539,30 @@
                 slidesToShow: 4,
                 slidesToScroll: 1,
                 autoplay:true,
-                autoplaySpeed:2000
+                autoplaySpeed:2000,
+                responsive: [
+                    {
+                        breakpoint:1200,
+                        settings:{
+                            slidesToShow:3
+                        }
+                    },
+
+                    {
+                        breakpoint:870,
+                        settings:{
+                            slidesToShow:2
+                        }
+                    },
+                    {
+                        breakpoint:510,
+                        settings:{
+                            slidesToShow:1
+                        }
+                    }
+
+
+                ]
             });
 
 
