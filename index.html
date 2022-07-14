@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- <meta name="color-scheme" content="dark light"> -->
     
-    <title>Landing Page</title>
+    <title>IP1-GROUP9</title>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="shortcut icon" href="./assets/images/logo.png">
@@ -55,6 +55,7 @@
         }
 
     </style>
+
 </head>
 <body>
     <div class="container">
@@ -62,13 +63,16 @@
             <div class="logo">
                 <a href="/"><img src="./assets/images/logo.png" alt=""></a>
             </div>
-            <div class="navigation">
+            <div id="navigation" class="navigation">
                 <ul>
                     <li><a href="/">Home</a></li>
                     <li><a href="./html/stories/">Stories</a></li>
                     <li><a href="./html/contact/">Contact Us</a></li>
                 </ul>
 
+            </div>
+            <div class="toggleButton">
+                <i id="toggle" class="fa fa-bars"></i>
             </div>
 
         </div>
@@ -590,9 +594,12 @@
                     prevEl: ".swiper-prev",
                 },
         });
+
+
   </script>
 
- 
+<script src="./js/toggle.js"></script>
+
     
 </body>
 </html>

@@ -33,22 +33,19 @@
     }
 
     .landing-screen{
-        height:60rem;  
+        height:35rem;  
         
     }
 
     .landing-message{
         width: 100%;
-       
+        background: linear-gradient(rgba(254, 254, 254, 0.9), rgba(254, 254, 254, 0.9)), url('../assets/images/screenshot-landing.png') no-repeat;
+        background-size:100% 100%;
+        justify-content: center;
     }
 
     .landing-image{
-        width: 100%;
-        align-items: center;
-    }
-
-    .half-circle{       
-        margin-left: 0;
+        display: none;
     }
 
     .landing-screen-action{
@@ -94,7 +91,7 @@
     /* LANDING IMAGE */
 
     .landing-screen{
-        height: 45rem;
+        height: 28rem;
     }
 
     .landing-screen div.landing-screen-content{
@@ -222,6 +219,46 @@
         font-size: .75rem;
         margin-top: .75rem;
     }
+
+
+    .toggleButton{
+        display: block;
+        flex: 1;
+        display: flex;
+        align-items: center;
+        height: 100%;
+        margin-right: 0rem;
+        background-color: white;
+    }
+
+    .logo{
+        flex: 8;
+        height: 100%;
+        margin-left: 0rem;
+        display: flex;
+        justify-content: center;
+        background-color: white;
+    }
+
+    .navigation{
+        position: absolute;
+        top:10vh;
+        height: 5rem;
+        width: 100%;
+        margin-right: 0rem;
+        background-color: rgba(255, 255, 255, 0.948);
+        display: flex;
+        justify-content: center;
+        transform: translateY(-20vh);
+        z-index: -1 !important;
+
+    }
+
+    .hiddable{
+        transform: translateY(0vh);
+    }
+
+   
 
 }
 
