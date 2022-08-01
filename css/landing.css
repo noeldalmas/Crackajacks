@@ -603,7 +603,7 @@ body{
 
 /* SECTION FIVE ======================= */
 .section-five{
-    height: 40rem;
+    height: 35rem;
     padding-top: 3rem;
     width: 100%;
     display: flex;
@@ -874,4 +874,40 @@ div.thanks{
     left: 0; 
     right: 0;     
     
+}
+
+#HCB_comment_box{
+    margin: 0rem auto;
+    width: 75%;
+    /* background-color: red; */
+    height: auto;
+    padding-bottom: 10rem;
+}
+
+.comment-title{
+    width: 75%;
+    margin: 1rem auto 2rem auto;
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+.comment-title span{
+    color: var(--color-light-blue);
+}
+
+#HCB_comment_box>h3,
+#HCB_comment_box #hcb_form #hcb_subscribe,
+.home-desc,
+.home-desc~small,
+#HCB_comment_box #comments_list~a,
+#hcb_file_label~div,
+#hcb_file_label
+{
+    display: none !important;
+}
+
+
+#hcb_submit{
+    background-color: var(--color-light-blue) !important;
+    border: none !important;
 }
