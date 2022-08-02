@@ -63,6 +63,8 @@ body{
     display: flex;
     margin-top: 3rem;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 .peer-information>div>div{
@@ -70,12 +72,14 @@ body{
     margin-bottom: 2rem;
     display: flex;
     align-items: center;   
-    justify-content: center; 
+    justify-content: left; 
+    align-items: center;
 }
 
 .peer-information>div>div i{
     margin-right: .75rem;
     font-size: 1.5rem;
+    
 }
 
 .fa-birthday-cake{

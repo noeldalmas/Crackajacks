@@ -220,6 +220,24 @@
         margin-top: .75rem;
     }
 
+    .landing-message>div:not(.mes){
+        font-weight: 900;   
+        font-size: 2.8rem;   
+    }
+
+    .mes{
+        font-size: 1.1rem !important;
+        font-weight: 600;
+    }
+
+    .navigation{
+        
+    }
+
+    .landing-screen{
+        height: 30rem;
+    }
+
 
     .toggleButton{
         display: block;
@@ -251,6 +269,8 @@
         justify-content: center;
         transform: translateY(-20vh);
         z-index: -1 !important;
+        font-weight: 900;
+        font-size: 1rem;
 
     }
 
