@@ -28,15 +28,20 @@
     <meta property="twitter:image" content="./assets/images/screenshot-landing.png">
 
     <!-- STYLESHEETS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!-- SWEET ALERT -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@sweetalert2/theme-minimal/minimal.css" />
+        <!-- HTML COMMENTBOX -->
+        <link rel="stylesheet" type="text/css" href="https://www.htmlcommentbox.com/static/skins/bootstrap/twitter-bootstrap.css?v=0" />
 
-    <link rel="stylesheet" href="./css/landing.css">
-    <link rel="stylesheet" href="./css/media_queries.css">
-    <link rel="stylesheet" href="./css/landing_queries.css">
+        <link rel="stylesheet" href="./css/landing.css">
+        <link rel="stylesheet" href="./css/media_queries.css">
+        <link rel="stylesheet" href="./css/landing_queries.css">
 
-    <link rel="stylesheet" href="./swiper-master/swiper.min.css">
-    <link rel="stylesheet" type="text/css" href="./slick-masters/slick/slick.css">
-    <link rel="stylesheet" type="text/css" href="./slick-masters/slick/slick-theme.css">
+        <!-- CAROUSELS -->
+        <link rel="stylesheet" href="./swiper-master/swiper.min.css">
+        <link rel="stylesheet" type="text/css" href="./slick-masters/slick/slick.css">
+        <link rel="stylesheet" type="text/css" href="./slick-masters/slick/slick-theme.css">
 
     <style>
 
@@ -85,8 +90,8 @@
             <div id="navigation" class="navigation">
                 <ul>
                     <li><a href="/">Home</a></li>
-                    <li><a href="./html/stories/">Stories</a></li>
-                    <li><a href="./html/contact/">Contact Us</a></li>
+                    <li><a href="./stories/">Stories</a></li>
+                    <li><a href="./contact/">Contact Us</a></li>
                 </ul>
 
             </div>
@@ -117,7 +122,7 @@
                             <img src="./assets/images/sea.jpg" alt="">
                             
                             
-                            <div class="box one">
+                            <div class="box one values">
                                 <i class="fa fa-plug" aria-hidden="true"></i>
                                 <div class="box-text">
                                     <span class="box-title">ALU</span>
@@ -127,7 +132,7 @@
 
                             
     
-                            <div class="box two">
+                            <div class="box two fun-activities">
                                 <i class="fa fa-plug" aria-hidden="true"></i>
                                 <div class="box-text">
                                     <span class="box-title">Island</span>
@@ -136,7 +141,7 @@
     
                             </div>
     
-                            <div class="box three">
+                            <div class="box three campus-images">
                                 <i class="fa fa-plug" aria-hidden="true"></i>
                                 <div class="box-text">
                                     <span class="box-title">Explore</span>
@@ -150,7 +155,7 @@
                     </div>
                 </div>
                 <div class="landing-screen-action">
-                    <a href="./html/stories/">Discover Now</a>
+                    <a href="./stories/">Discover Now</a>
                 </div>
 
             </div>
@@ -196,46 +201,46 @@
                 <span>Memories of campus life through the social life classroom. Blocks for our own sanity and learning how to interact with people. </span>
                 <div class="galery event slider">
                     <div class="galery-box">
-                        <img src="./assets/images/alternative.jpg" alt="">
+                        <img src="./assets/images/star_gazing.JPG" alt="">
                         <div>
-                            <span>Asante Sana</span>
+                            <span>Star Gazing</span>
                         </div>
                     </div>
 
                     <div class="galery-box">
-                        <img src="./assets/images/alternative.jpg" alt="">
+                        <img src="./assets/images/scavenger.JPG" alt="">
                         <div>
-                            <span>Asante Sana</span>
+                            <span>Scavenger Hunt</span>
                         </div>
                     </div>
 
                     <div class="galery-box">
-                        <img src="./assets/images/alternative.jpg" alt="">
+                        <img src="./assets/images/end_year.JPG" alt="">
                         <div>
-                            <span>Asante Sana</span>
+                            <span>End Of Year Ceremony</span>
                         </div>
                     </div>
 
                     <div class="galery-box">
-                        <img src="./assets/images/alternative.jpg" alt="">
+                        <img src="./assets/images/empowered.JPG" alt="">
                         <div>
-                            <span>Asante Sana</span>
-                        </div>
-                        
-                    </div>
-
-                    <div class="galery-box">
-                        <img src="./assets/images/alternative.jpg" alt="">
-                        <div>
-                            <span>Asante Sana</span>
+                            <span>Empowered Event</span>
                         </div>
                         
                     </div>
 
                     <div class="galery-box">
-                        <img src="./assets/images/alternative.jpg" alt="">
+                        <img src="./assets/images/awards.jpg" alt="">
                         <div>
-                            <span>Asante Sana</span>
+                            <span>Awards Gala</span>
+                        </div>
+                        
+                    </div>
+
+                    <div class="galery-box">
+                        <img src="./assets/images/art_fest.jpg" alt="">
+                        <div>
+                            <span>Arts Fest</span>
                         </div>
                         
                     </div>
@@ -266,31 +271,83 @@
                 <div class="galery">                    
 
                     <div class="galery regular slider">
-                        <div class="galery-box b">
-                            <img src="./assets/images/grand-baie.jpg" alt="">
-                            <div>
+                        <div class="galery-box">
+                            <img src="./assets/images/port_louis.jpg" alt="">
+                            <div class="content-container">
                                 <span>Port Louis</span>
                             </div>
+                            <div class="content-on-hover">
+                                <span>Port Louis</span>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni in recusandae culpa amet nostrum dicta unde repellat perferendis dignissimos similique?
+                                </p>
+                            </div>
+
                         </div>
+
     
                         <div class="galery-box">
                             <img src="./assets/images/grand-baie.jpg" alt="">
                             <div>
                                 <span>Grand Baie</span>
                             </div>
+                            <div class="content-on-hover">
+                                <span>Grand Baie</span>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni in recusandae culpa amet nostrum dicta unde repellat perferendis dignissimos similique?
+                                </p>
+                            </div>
                         </div>
     
                         <div class="galery-box">
-                            <img src="./assets/images/grand-baie.jpg" alt="">
+                            <img src="./assets/images/le_morne.jpg" alt="">
                             <div>
                                 <span>Le Morne</span>
+                            </div>
+                            <div class="content-on-hover">
+                                <span>Le Morne</span>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni in recusandae culpa amet nostrum dicta unde repellat perferendis dignissimos similique?
+                                </p>
                             </div>
                         </div>  
                         
                         <div class="galery-box">
-                            <img src="./assets/images/grand-baie.jpg" alt="">
+                            <img src="./assets/images/flic.jpg" alt="">
                             <div>
-                                <span>Flick</span>
+                                <span>Flic-en-Flac</span>
+                            </div>
+                            <div class="content-on-hover">
+                                <span>Flic-en-Flac</span>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni in recusandae culpa amet nostrum dicta unde repellat perferendis dignissimos similique?
+                                </p>
+                            </div>
+                        </div>
+                        <div class="galery-box">
+                            <img src="./assets/images/pamplemousses.jpg" alt="">
+                            <div>
+                                <span>Pamplemousses</span>
+                            </div>
+                            <div class="content-on-hover">
+                                <span>Pamplemousses</span>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni in recusandae culpa amet nostrum dicta unde repellat perferendis dignissimos similique?
+                                </p>
+                            </div>
+
+                        </div>
+
+                        <div class="galery-box">
+                            <img src="./assets/images/caudan_waterfront.jpg" alt="">
+                            <div>
+                                <span>Caudan Waterfront</span>
+                            </div>
+                            <div class="content-on-hover">
+                                <span>Caudan Waterfront</span>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni in recusandae culpa amet nostrum dicta unde repellat perferendis dignissimos similique?
+                                </p>
                             </div>
                         </div>
                         
@@ -413,7 +470,7 @@
                     </div>
 
                     <div class="section-five-galery-box">
-                        <img src="./assets/images/grand-baie.jpg" alt="">
+                        <img src="./assets/images/pacifique.jpg" alt="">
                         <div>
                             <span>Pacifique</span>
                             <span>June 17th, 2022</span>
@@ -451,9 +508,9 @@
                         <img src="./assets/images/logo.png" alt="">
                         <span>The journey of six great leaders<span>
                         <div class="social-buttons">
-                            <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                            <a href=""><i class="fa fa-github" aria-hidden="true"></i></a>
-                            <a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                            <a href="https://web.facebook.com/thecrackajacks/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                            <a href="https://github.com/noeldalmas/Crackajacks" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+                            <a href="https://twitter.com/Crackajacks6?t=6MbulQsOCoXK911kXh0kZw&s=0" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
 
                         </div>
 
@@ -461,23 +518,27 @@
     
                     <div class="footer-part-two">
                         <h3>Links</h3>
-                        <a href="#">Home</a>
-                        <a href="#">About</a>
+                        <a href="/">Home</a>
+                        <a href="/stories">Stories</a>
     
                     </div>
     
                     <div class="footer-part-three">
-                        <h3>Stories</h3>
-                        <a href="#">Adja</a>
-                        <a href="#">Harry</a>
-                        <a href="#">Noel</a>
-                        <a href="#">Emmanuel</a>
-                        <a href="#">Pacifique</a>
+                        <h3>Developers</h3>
+                        <a href="mailto:a.gueye@alustudent.com">Adja</a>
+                        <a href="mailto:h.goliyo@alustudent.com">Harry</a>
+                        <a href="mailto:m.hailu@alustudent.com">Mussie</a>
+                        <a href="mailto:n.oduory@alustudent.com">Noel</a>
+                        <a href="mailto:e.okorwoit@alustudent.com">Emmanuel</a>
+                        <a href="mailto:p.kishinyambwe@alustudent.com">Pacifique</a>
     
                     </div>
     
                     <div class="footer-part-four">
                         <h3>Contact Us</h3>
+                        <a href="tel:+23057157690">+23057157690</a>
+                        <a href="mailto:p.kishinyambwe@alustudent.com">Send mail</a>
+                        <span>ALC Campus, Pamplemousses, Mauritius</span>
     
                     </div>
 
@@ -494,10 +555,9 @@
 
     </div>
 
-    <!-- begin wwww.htmlcommentbox.com -->
- <link rel="stylesheet" type="text/css" href="https://www.htmlcommentbox.com/static/skins/bootstrap/twitter-bootstrap.css?v=0" />
- <script type="text/javascript" id="hcb"> /*<!--*/ if(!window.hcb_user){hcb_user={};} (function(){var s=document.createElement("script"), l=hcb_user.PAGE || (""+window.location).replace(/'/g,"%27"), h="https://www.htmlcommentbox.com";s.setAttribute("type","text/javascript");s.setAttribute("src", h+"/jread?page="+encodeURIComponent(l).replace("+","%2B")+"&mod=%241%24wq1rdBcg%24pA7KQ2ARg6mp2XDh3khim1"+"&opts=16798&num=10&ts=1659377552530");if (typeof s!="undefined") document.getElementsByTagName("head")[0].appendChild(s);})(); /*-->*/ </script>
-<!-- end www.htmlcommentbox.com -->
+  <script type="text/javascript" id="hcb"> /*<!--*/ if(!window.hcb_user){hcb_user={};} (function(){var s=document.createElement("script"), l=hcb_user.PAGE || (""+window.location).replace(/'/g,"%27"), h="https://www.htmlcommentbox.com";s.setAttribute("type","text/javascript");s.setAttribute("src", h+"/jread?page="+encodeURIComponent(l).replace("+","%2B")+"&mod=%241%24wq1rdBcg%24pA7KQ2ARg6mp2XDh3khim1"+"&opts=16798&num=10&ts=1659377552530");if (typeof s!="undefined") document.getElementsByTagName("head")[0].appendChild(s);})(); /*-->*/ </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.js"></script>
 
   <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
   <script src="./slick-masters/slick/slick.js" type="text/javascript" charset="utf-8"></script>
@@ -605,7 +665,7 @@
             
             });
 
-            var swiper = new Swiper('.swiper-container', {
+        var swiper = new Swiper('.swiper-container', {
                 effect: 'coverflow',
                 grabCursor: true,
                 centeredSlides: true,
@@ -627,10 +687,11 @@
                 },
         });
 
-
+        
   </script>
 
 <script src="./js/toggle.js"></script>
+<script src="/js/alerts.js" type="text/javascript"></script>
 
     
 </body>

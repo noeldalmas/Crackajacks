@@ -221,6 +221,32 @@ body{
     left: 0rem;
 }
 
+.box{
+    cursor: pointer;
+}
+
+.alu-values{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.alu-values span{
+    width: 80%;
+    background-color: var(--color-lighter-blue);
+    padding: .5rem;
+}
+
+.campus{
+    width: 100%;
+}
+
+.campus img{
+    width: 100%;
+    height: 100%;
+}
 /* DISCOVER BUTTON- *************/
 .landing-screen-action{
     height: 20%;
@@ -488,6 +514,42 @@ body{
     width: 75%;
 }
 
+.section-three .galery .galery-box:hover{
+    box-shadow: 0px 1px 2px var(--color-light-blue);
+    cursor: pointer;
+}
+
+
+.section-three .galery .galery-box:hover .content-on-hover{
+    display: block;
+}
+
+
+.content-on-hover{
+    display: none;
+    position: absolute;
+    height: 250px !important;
+    width: 100%;
+    background-color: rgba(6, 148, 230, 0.872);
+    z-index: 100 !important;
+    top: 0;
+    border-radius: 10px;
+    margin-top: .75rem !important;
+    padding: .5rem;
+    transition: all ease-in-out 800ms;
+    
+}
+
+.content-on-hover>span{
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.content-on-hover>p{
+    margin-top: 2rem;
+}
+
+
 .slide-controls{
     margin-top: 3rem;
     text-align: right;
@@ -635,7 +697,7 @@ body{
 .section-five-galery-box{
     margin: 2rem;
     border: 1px solid rgba(0, 0, 0, 0.18);
-    height: 18rem;
+    height: 21rem;
     border-radius: 10px;
     overflow: hidden;
     display: flex;
@@ -645,7 +707,7 @@ body{
 
 .section-five-galery-box:hover{
     transform: translateY(-10px) scale(1.01) translateZ(0);
-    box-shadow: 0px 2px 20px rgba(128, 128, 128, 0.173), 0px 24px 46px rgba(0, 132, 255, 0.221);
+    box-shadow: 0px 2px 10px rgba(128, 128, 128, 0.173), 0px 5px 10px rgba(0, 132, 255, 0.221);
 }
 
 .section-five-galery-box div{
@@ -672,7 +734,7 @@ body{
 
 .section-five-galery-box img{
     width: 100%;
-    height: 12rem;
+    height: 14rem;
 }
 
 .section-five-dots{  
@@ -718,9 +780,9 @@ div.thanks{
 }
 
 .footer-up{
-    height: 17rem;
+    height: 19rem;
     display: flex;
-    border-bottom: 1px solid gray;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.412);
 }
 
 .footer-part-one{
@@ -765,6 +827,16 @@ div.thanks{
 }
 
 
+.footer-part-four a{
+    color: var(--color-light-blue);
+    padding-left: .5rem;
+    margin-bottom: 1rem;
+}
+
+.footer-part-four span{
+    color: gray;
+    padding-left: .5rem;
+}
 
 /* FACEBOOK ICON */
 
@@ -847,8 +919,8 @@ div.thanks{
 }
 
 .footer-down{
-    height: 5rem;
-
+    height: 3rem;
+    padding-top: .25rem;
 }
 
 
