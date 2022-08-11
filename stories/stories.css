@@ -36,7 +36,7 @@ body{
     height: 60%;
     display: flex;
     justify-content: left;
-    align-items: center;
+    align-items: center;    
 }
 
 
@@ -160,7 +160,7 @@ tr>td:last-of-type{
 .advices-section{
     text-align: center;
     padding: 3rem 5rem 2rem 5rem;
-    height: 60rem;
+    height: 70rem;
     width: 100%;
     background-color: rgba(27, 118, 197, 0.135);
 }
@@ -175,7 +175,7 @@ tr>td:last-of-type{
 
 .advice{
     width: 18rem;
-    height: 12rem;  
+    height: 20rem;  
     background-color: rgba(255, 0, 0, 0.153);
     margin: 4rem 2rem;
     border-radius: 5px;
@@ -202,10 +202,18 @@ tr>td:last-of-type{
 
 }
 
+td{
+    padding: 1rem;
+}
+
+p em{
+    font-weight: 900;
+}
+
 @media only screen and (max-width:1216px){
 
     .advices-section{
-       height: 70rem;
+       height: 90rem;
     }
 
     .advice{
@@ -255,12 +263,12 @@ tr>td:last-of-type{
 @media only screen and (max-width:864px){
 
     .advices-section{
-        height: 75rem;
+        height: 90rem;
     }
     .advice{
         font-size: .9rem;
         width: 15rem;
-        height: 14rem;  
+        /* height: 14rem;   */
     }
 
     .advice>img{
@@ -335,7 +343,7 @@ tr>td:last-of-type{
 @media only screen and (max-width:768px){
 
     .advices-section{
-        height: 130rem;
+        height: 140rem;
     }
 }
 
