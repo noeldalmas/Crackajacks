@@ -100,6 +100,10 @@ body{
     height: 100%;
 }
 
+.core-questions .mission{
+    display: none;
+}
+
 .mission-background{
     width: 100%;
     height: 35%;
@@ -176,7 +180,7 @@ tr>td:last-of-type{
 .advice{
     width: 18rem;
     height: 20rem;  
-    background-color: rgba(255, 0, 0, 0.153);
+    background-color: white;
     margin: 4rem 2rem;
     border-radius: 5px;
     text-align: center;
@@ -279,7 +283,7 @@ p em{
     }
 
     .stories-section{
-        height: 90rem;
+        height: 100rem;
         width: 100%;
     }
     
@@ -334,7 +338,6 @@ p em{
         margin: auto;
     }
 
-
     .advice{
         margin-bottom: 1rem;
     }
@@ -345,6 +348,30 @@ p em{
     .advices-section{
         height: 140rem;
     }
+
+
+    .core-questions table{
+        display: none;
+    }
+
+   .core-questions .mission{
+        display: block;
+        height: auto;
+        padding-bottom: 2rem;
+        background-color: rgba(54, 191, 250, 0.075);
+   }
+
+   .single-answer{
+    margin-bottom: 2rem;
+   }
+
+   .single-answer li{
+     list-style-type: circle;
+     margin-left: 1rem;
+   }
+
+
+
 }
 
 @media only screen and (max-width:628px){
@@ -370,7 +397,7 @@ p em{
     }
     
     .core-questions{
-        height: 50%;
+        height: auto;
     }
 
     .stories-section .story{

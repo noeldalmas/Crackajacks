@@ -37,13 +37,24 @@
 @media only screen  and (max-width:864px){
 
     .slider {
-        height: 90rem;
+        height: 100rem;
     }
     
     .slick-slide .story{
         flex-direction: column !important;
-        height: 90rem !important;
+        height: 100rem !important;
         align-items: center;
     }
     
+}
+
+@media only screen and (max-width:768px){
+    .slider{
+        height: auto !important;
+    }
+
+    .slick-slide .story{
+        height: auto !important;
+
+    }
 }

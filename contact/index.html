@@ -192,7 +192,7 @@
 
                     
                     <div class="contact-form">
-                        <form id="contactForm" name="contact" method="POST" data-netlify="true">
+                        <form id="contactForm" name="contact" method="POST" action="/success/" data-netlify="true">
                             <h2>Send a message to the team</h2>
                             <div>                                
                                 <input type="text" name="name" id="name" required>
@@ -289,26 +289,6 @@
   <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.js"></script>
 
   <script>
-
-        // document.querySelector('#contactForm').addEventListener('submit', (e)=>{
-        //     e.preventDefault();
-        //     console.log('Test')
-        //     Swal.fire({
-        //         title: '<strong>Your message was sent</strong>',
-        //         icon: 'success',
-        //         html:`Thank you for contacting us. We will reach out to you soon`,
-        //         confirmButtonText:`Back to contact`,
-        //         confirmButtonColor: 'rgb(6, 148, 230)',
-        //         focusConfirm: false,
-        //         reverseButtons: true,
-        //         allowOutsideClick:false,
-
-        //     }).then((result) => {
-        //         if (result.value) {
-        //             window.location.href = `../contact/`
-        //         }
-        //     }); 
-        // });
        
        $(document).on('ready', function() {      
         
