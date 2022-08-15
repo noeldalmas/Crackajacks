@@ -1,12 +1,12 @@
 .slider {
     width: 100%;
-    height: 45rem;
+    height: auto;
 }
 
 .slick-slide .story{
     width: 100%;
     display: flex !important ;
-    height: 45rem !important;
+    height: auto !important;
 }
 
 .controls{
@@ -44,6 +44,10 @@
         flex-direction: column !important;
         height: 100rem !important;
         align-items: center;
+    }
+
+    .peer-information>div{
+        justify-content: center !important;
     }
     
 }
