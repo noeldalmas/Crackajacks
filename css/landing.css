@@ -396,7 +396,7 @@ body{
 
 }
 
-.galery-box div{
+.galery-box>div:last-of-type{
     height: 30%;
     text-align: center;
     margin-top: 1rem;
@@ -410,6 +410,13 @@ body{
 .galery img{
     width: 100%;
     height: 70%;
+}
+
+.alc-event{
+    width: 100%;
+    height: 70%;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 /* GALERY BUTTONS **************/
@@ -490,7 +497,7 @@ body{
 /* SECTION THREE ======================= */
 
 .section-three{
-    height: 32rem;
+    height: 40rem;
 }
 
 .section-three-title{
@@ -511,7 +518,19 @@ body{
 .section-three .galery{
     margin-top: 0;
     margin: auto;
-    width: 75%;
+    width: 90%;
+}
+
+.mauritius-place{
+    width: 100%;
+    height: 70% !important;
+    margin-top: 0 !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section-three .galery .galery-box{
+    height: 365px;
 }
 
 .section-three .galery .galery-box:hover{
@@ -519,16 +538,18 @@ body{
     cursor: pointer;
 }
 
-
 .section-three .galery .galery-box:hover .content-on-hover{
     display: block;
 }
 
+.caudan, .pamplemousses{
+    font-size: 1.5rem !important;
+}
 
 .content-on-hover{
     display: none;
     position: absolute;
-    height: 250px !important;
+    height: 365px !important;
     width: 100%;
     background-color: rgba(6, 148, 230, 0.872);
     z-index: 100 !important;
@@ -537,6 +558,7 @@ body{
     margin-top: .75rem !important;
     padding: .5rem;
     transition: all ease-in-out 800ms;
+    overflow: auto;
     
 }
 
@@ -546,14 +568,15 @@ body{
 }
 
 .content-on-hover>p{
-    margin-top: 2rem;
+    margin-top: 1rem;
+    font-size: 1.2rem;
 }
 
 
 .slide-controls{
     margin-top: 3rem;
     text-align: right;
-    width: 55%;
+    width: 80%;
     height: 40px;
     display: flex;
     justify-content: right;
@@ -710,7 +733,7 @@ body{
     box-shadow: 0px 2px 10px rgba(128, 128, 128, 0.173), 0px 5px 10px rgba(0, 132, 255, 0.221);
 }
 
-.section-five-galery-box div{
+.section-five-galery-box>div:last-of-type{
     display: flex;
     flex-direction: column;
     text-align: left;
@@ -732,9 +755,11 @@ body{
     color: rgba(0, 0, 0, 0.504);
 }
 
-.section-five-galery-box img{
-    width: 100%;
+.officer-image{
+    width: 100% !important;
     height: 14rem;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .section-five-dots{  
