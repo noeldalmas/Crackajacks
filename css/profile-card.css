@@ -23,12 +23,13 @@
     justify-content: center;
 }
 
-.card .card-image img{
+.unique-advice-image{
     width: 8rem;
     height: 8rem;
     border-radius: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-
 .card .card-info{
     height: 35%;
     width: 100%;
