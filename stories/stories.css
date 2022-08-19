@@ -349,9 +349,12 @@ p em{
 @media only screen and (max-width:768px){
 
     .advices-section{
-        height: 140rem;
+        height: auto;
     }
 
+    .advices{
+        margin-bottom: 4rem;
+    }
 
     .core-questions table{
         display: none;
